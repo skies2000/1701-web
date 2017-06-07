@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<members>
+	<member>
+		<name>홍길동</name>
+		<addr>서울</addr>
+		<phone>010-111-1111</phone>
+	</member> 
+	<member>
+		<name>성춘향</name>
+		<addr>남원</addr>
+		<phone>010-333-3333</phone>
+	</member>
+	<member>
+		<name>이몽룡</name>
+		<addr>춘천</addr>
+		<phone>010-222-2222</phone>
+	</member>
+</members>

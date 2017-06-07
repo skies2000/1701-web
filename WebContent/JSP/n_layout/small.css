@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+#main{
+		width: 600px;
+		height: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid 1px;
+		
+	}
+	#n_left{
+		background-color: #010;
+		border: 1px solid : #ddd;
+		width: 150px;
+		height: 480px;
+		float: left;
+	}
+	#n_center{
+		background-color: #020;
+		border: 1px solid : #ddd;
+		width: 300px ;
+		height: 480px;
+		margin-left: 150px;
+	}
+	#n_right{
+		background-color: #030;
+		border: 1px solid : #ddd;
+		width: 150px ;
+		height: 480px;
+		float: right
+	}
+		#n_footer{
+			background-color: #040;
+		border: 1px solid : #ddd;
+		width: 600px;
+		height: 60px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+		#n_top{
+			background-color: #050;
+		border: 1px solid : #ddd;
+		width: 600px ;
+		height: 60px;
+		margin-left: auto;
+		margin-rifht: auto;
+	}
+

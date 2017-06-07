@@ -1,0 +1,20 @@
+가로
+3. true
+4. title
+6.w3c 
+7.validatior
+8. browserwars
+9.css
+11. alt
+14. transitional
+15. doctype
+
+세 로
+1. 
+2. style
+5.
+6. webdeveloper
+7. character
+10. strict
+12. quirks
+13. meta

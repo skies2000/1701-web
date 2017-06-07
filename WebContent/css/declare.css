@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+.title{
+	background-color: #dddddd;
+	padding: 8px;	/*안쪽 여백  */
+	box-sizing: border-box; 	/*전체 넓이는 바뀌지 않는다.  */
+	
+	border-color: #aaaaaa;
+	border-top-width: 2px;
+	border-top-style: solid;
+	
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	
+}
+
+.item{
+	display: inline-block; /*셀 사이에 거리  */
+	width: 100px;			/*를 100px만큼  */
+}
+.phone{
+	width: 200px;
+}

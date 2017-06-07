@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+.title{
+	display: inline-block; /*셀 사이에 거리  */
+	width: 450px;	
+	padding-top: 6px;
+	padding-bottom: 6px;
+	}
+.listsize{
+	
+	padding-top: 2px;
+	padding-bottom: 2px;	
+
+}
+.titlebar{
+	background: #EEF6F6; 
+	/* border: 2pt #dddddd */
+	box-sizing: border-box;
+	border: 1pt solid #555555;
+} 
+.date{
+	display: inline-block; /*셀 사이에 거리  */
+	width: 150px;		
+}
+.subtitle{
+ display: inline-block; 
+	width: 100px;	 
+}
+
+.list{
+display: inline-block; /*셀 사이에 거리  */
+	width: 100px;		
+	
+}
+.listTitle{
+display: inline-block; 
+	width: 300px;
+
+}
+.listbar{
+	border: 1pt solid #aaaaaa;
+}
+.leftsubtitle{
+	display: inline-block; 
+	width: 70px;
+}
+
+.imgsize{
+	wdith:20px;
+	height:20px;
+}

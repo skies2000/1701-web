@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+		#viewContent{
+		width: 500px;
+		height: 300px;
+	} 
+ 	#areaList{
+		width: 90%;
+		height: 70%;
+		overflow: auto;
+		border: 1px solid #aaa;
+	}  

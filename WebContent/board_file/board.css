@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+#items>span,.list>span{
+		display: inline-block;
+		padding: 3px;
+		box-sizing:border-box;
+		text-align: center;
+	}
+	
+	.serial,.hit{
+		width: 12%;
+	}
+	.mdate{ 
+		width: 30.5%;
+	}
+	.worker,.subject{
+		width: 19%; 
+	}
+	#items{
+		background-color: #6FBDD1;
+		border-top: 1px dashed #fff;
+		border-bottom: 1px solid #19373E;
+		
+	}
+	#items, .list{
+		border-left: 1px dashed #fff;
+		border-right: 1px dashed #fff;
+		margin-left:auto;
+		
+		
+	}
+	h2{
+		text-align: center;
+	}
+	.list{
+		background-color: #D4F0F7;
+		border-bottom: 1px dotted #bbb;
+	}
+	#bBody{
+		width: 60%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#search{
+		float:right;
+	}
+
+	form{ 
+		margin-bottom: 5px;
+	}

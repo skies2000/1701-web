@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+#main>div{
+	border: 1px solid #aaa;
+	width: 200px;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+	color: #000;
+	box-shadow: 2px 2px 3px #bbb;
+	
+	font-size: 14px;
+	/*애니메이션 효가를 위한 설정  */
+	trasform: rotate(0deg);
+	-webkit-transition: transform 1s, opacity 1s, color 1s,
+		rotate 1s, font-size 1s;
+}
+	#main>div:hover{
+		-webkit-transform: rotate(10deg);
+		background-color: #000;
+		color: #fff;
+		font-size: 25px;
+		-webkit-transition: -webkit-transform 2s, opacity 2s, color 1s,
+			rotate 2s, font-size 1s;
+	}

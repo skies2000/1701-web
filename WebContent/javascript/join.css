@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+#cl-dashboard{display: none;}
+
+.lLabel{
+	width: 80px;
+	display:inline-block;
+	text-align: right; 
+}
+#ph1, #ph2, #ph3{
+	width: 80px;
+}
+#e1, #e2{
+	width: 100px;
+}
+#mid, #irum{
+	width: 120px;
+	 
+}
+#pwd, #pwd2{
+	width: 100px;
+}
+h3{
+	margin-left: 20px;
+	background-color: #435075;
+	color : white;
+	padding: 10px;
+	width: 350px;
+	text-align: center;
+	 
+}
+#etc{
+	width: 300px;
+	border: 1px solid #aaa;
+	height: 180px;
+	overflow: auto;
+	margin-left: 82px;
+	margin-bottom: 15px;
+	
+	
+}
+#cjDiv{
+	margin-left: 82px;
+}
+#cjDiv>input{
+	padding: 3px;
+	width: 90px;
+}
+.eDiv>select{ 
+	box-sizing: border-box;
+	
+} 
+#interDiv>.interItem{
+	display: inline-block;
+	width: 70px;
+	
+}
+
+

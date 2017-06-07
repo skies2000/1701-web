@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>css3 selector basic</title>
+<style>
+	/*input 태그의 type 속성값이 checkbox 태그가 체그되었을때
+	   바로 뒤에 위치하는 divf 태그의 height 속성에 0픽셀을 적용합니다.
+	  */
+	input[type=checkbox]:checked + div{
+		height: 0px;
+	}
+	div{
+		overflow: hidden;
+		width: 650px;
+		height: 300px;
+		
+		/* 변환 효과를 적용합니다.*/
+		-ms-transition-duration: 1s;
+		-webkit-transition-duration: 1s;
+		-moz-transition-duration: 1s;
+		-o-transition-duration: 1s;
+		transition-duration: 1s; 
+	}
+</style>
+</head>
+<body>
+<a href="http://placehold.it"><img src="http://placehold.it/350x150"></a>
+
+	<input type='checkbox' />
+	<div>
+		<h1>Lorem ipsum</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	</div>
+
+</body>
+</html>

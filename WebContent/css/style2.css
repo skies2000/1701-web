@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+/*화면의 넓이가 400~600px일때 */
+
+ #d2{
+ 	display: inline-block;
+ 	width: 48%;
+ }
+ #d3{
+ 	display: inline-block;
+ 	width: 49%;
+ 	margin-left: 1pt;
+ }
+ #d4{
+ 	display: inline-block;
+ 	width: 48%;
+ }
+ #d5{
+ 	display: inline-block;
+ 	width: 49%;
+ 	margin-left: 1pt;
+ }
+
+
